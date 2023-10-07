@@ -1,10 +1,21 @@
 body {
     background-color: black;
+    background-image: url(bgphoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  orange;
+    margin-top: 65px;
+    font-size: 100px;
+  }
+  p {
+    color: brown;
   }
   h1 {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:  wheat;
-    margin-top: 100px;
+    color: whitesmoke;
     font-size: 100px;
   }
