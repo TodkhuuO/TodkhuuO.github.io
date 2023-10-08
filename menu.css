@@ -53,6 +53,30 @@ body {
     text-align: right;
     padding-right: 100px;
   }
+  .menu-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 19px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.993);
+}
+
+.menu-item {
+    margin-bottom: 19px;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-description {
+    color: #f3b9b9;
+}
+
+.item-price {
+    color: #000000;
+    font-weight: bold;
+}
 
   
   
