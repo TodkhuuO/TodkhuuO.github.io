@@ -6,9 +6,10 @@ align-items: center;
   }
 
     background-color: black;
-    background-image: url(bgphoto.jpg);
+    background-image: url(bgphoto2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
 stify-content :center;
 align-items: center;
 
@@ -23,8 +24,62 @@ align-items: center;
   p {
     color: brown;
   }
+=======
+    
+  }
+  
+  
+>>>>>>> 621678fa502596641269073e40b9fa4f37e767f2
   h1 {
     text-align: center;
-    color: whitesmoke;
+    color: orange;
     font-size: 100px;
+<<<<<<< HEAD
   }
+=======
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .logo {
+    margin-top: 30px;
+    margin-right: 30px;
+    text-align: right;
+    
+  }
+  hr {
+    background-color: white;
+    height: 1px;
+    margin-top: 10;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  
+  table {
+    border: 0px double white;
+    margin-left: 40px;
+    border-collapse: collapse;
+    width: 65%;
+    color: white;
+    
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    margin-right: 50px;
+    padding-right: 40px;
+    font-size: 25px;
+  }
+  
+  
+  .hoolnii_turluud {
+    font-size: 60px;
+    text-align: right;
+    padding-right: 100px;
+  }
+
+  
+  
+>>>>>>> 621678fa502596641269073e40b9fa4f37e767f2
