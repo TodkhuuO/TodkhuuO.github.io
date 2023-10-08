@@ -1,9 +1,18 @@
 body {
+  #pond{
+    display: flex;
+justify-content :center;
+align-items: center;
+  }
+
     background-color: black;
     background-image: url(bgphoto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  }
+stify-content :center;
+align-items: center;
+
+
   h2 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
