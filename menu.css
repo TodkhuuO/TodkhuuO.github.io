@@ -62,14 +62,18 @@ body {
 }
 
 .menu-item {
-    margin-bottom: 19px;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .item-name {
     font-weight: bold;
+    margin-bottom: 0%;
 }
 
 .item-description {
+
     color: #f3b9b9;
 }
 
