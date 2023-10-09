@@ -55,9 +55,9 @@ body {
   }
   .menu-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 50px;
     padding: 19px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(50, 44, 44);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.993);
 }
 
@@ -70,16 +70,18 @@ body {
 .item-name {
     font-weight: bold;
     margin-bottom: 0%;
+    color: white;
 }
 
 .item-description {
 
-    color: #f3b9b9;
+    color: #6a5c5c;
 }
 
 .item-price {
     color: #000000;
     font-weight: bold;
+    color: white;
 }
 
   
