@@ -61,25 +61,29 @@ th, td {
 
 .menu-item {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align:center;
+  margin-bottom:18px;
 }
 
 .item-name {
   font-weight: bold;
-  font-size: 40px; 
-  margin-bottom: 0;
+  font-size: 30px; 
+  margin-bottom: 10px;
   color: white;
 }
 
 .item-description {
   color: #646464;
-  font-size: 30px; 
+  font-size: 29px; 
 }
 
 .item-price {
   color: #ffffff;
   font-weight: bold;
-  font-size: 40px; 
+  font-size: 29px; 
+  margin-top:10px;
 }
 
 .table1 {
