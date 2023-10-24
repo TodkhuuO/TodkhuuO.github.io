@@ -1,110 +1,286 @@
+.ehcode{
+    font-family: sans-serif;
+}
 body {
-  background-color: black;
-  background-image: url(bgphoto2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white; 
+    background-color: black;
+    background-image: url(bgphoto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+  }
+  
+  h1 {
+    text-align: center;
+    color: orange;
+    font-size: 100px;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    margin-top: 30px;
+    margin-right: 30px;
+    text-align: right;
+  }
+  
+  hr {
+    background-color: white;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  table {
+    border: 0px double white;
+    margin-left: 40px;
+    border-collapse: collapse;
+    width: 65%;
+    color: white;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    margin-right: 50px;
+    padding-right: 40px;
+    font-size: 25px;
+  }
+  
+  .hoolnii_turluud {
+    font-size: 60px;
+    text-align: center;
+    margin-right: 500px;
+  }
+  
+  .menu-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 19px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.993);
+    position: static;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    margin-bottom:18px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    font-size: 30px; 
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .item-description {
+    color: #646464;
+    font-size: 29px; 
+  }
+  
+  .item-price {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 29px; 
+    margin-top:10px;
+  }
+  
+  .table1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .img_burger {
+    margin-right: 30px;
+    align-items: flex-end;
+    margin-top: 30px;
+  }
+  
+  .img_pizza {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .table2 {
+    margin-right: 30px;
+    align-items: flex-end;
+    display: flex;
+  }
+  .hovers {
+    border: 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+      float: inline-end;
+      text-decoration: none;
+      transition: color 0.3s;
+      transition: background-color 0.3s;
+      display: flex;
+  align-items:center;
+  justify-content: center;
+  padding-right: 560px;
+  
+  }
+  .hovers a{
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+      text-decoration: none;
+  
+      background-color: none;
+      border: 2px solid white;
+      border-radius: 2rem;
+  }
+  .hovers:hover {
+      color: #390b7a;
+  }
+  .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: static;
+    margin-left: 200px;
+}
+.styled-table thead tr {
+    background-color: orange;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
 }
 
-h1 {
-  text-align: center;
-  color: orange;
-  font-size: 100px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 0;
-  margin-top: 20px;
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
 }
 
-.logo {
-  margin-top: 30px;
-  margin-right: 30px;
-  text-align: right;
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid orange;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: orange;
+}
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i&display=swap");
+
+.form {
+  font-size: 16px;
 }
 
-hr {
-  background-color: white;
-  height: 1px;
-  margin-top: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
+.form * {
+  box-sizing: border-box;
+  line-height: 1.5;
 }
 
-table {
-  border: 0px double white;
-  margin-left: 40px;
-  border-collapse: collapse;
-  width: 65%;
-  color: white;
+.form__title {
+  font-size: 2em;
+  font-weight: 600;
 }
 
-th, td {
-  padding: 8px;
-  text-align: left;
-  margin-right: 50px;
-  padding-right: 40px;
-  font-size: 25px;
-}
-
-.hoolnii_turluud {
-  font-size: 60px;
-  text-align: center;
-  margin-right: 500px;
-}
-
-.menu-container {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 19px;
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.993);
-}
-
-.menu-item {
+.form__item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align:center;
-  margin-bottom:18px;
 }
 
-.item-name {
-  font-weight: bold;
-  font-size: 30px; 
-  margin-bottom: 10px;
-  color: white;
+.form__item > * {
+  align-self: flex-start;
 }
 
-.item-description {
-  color: #646464;
-  font-size: 29px; 
+.form__label {
+  font-weight: 600;
+  padding: 10px 0;
 }
 
-.item-price {
+.form__input {
+  -webkit-appearance: none;
+
+  width: 100%;
+  max-width: 425px;
+  min-height: calc(0.9em + (0.8em * 2) + 0.6em);
+
+  padding: 0.8em;
+  font-size: 0.9em;
+  font-family: "Source Sans Pro", sans-serif;
+
+  outline: none;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background: #f9f9f9;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+
+.form__input:focus {
+  background: #ffffff;
+}
+
+.form__input::placeholder {
+  color: #bbbbbb;
+}
+
+.form__input--error {
+  color: #d50000;
+  background: #fff8f8;
+  border-color: #d50000;
+}
+
+.form__input--error::placeholder {
+  color: #ffbfbf;
+}
+
+.form__error {
+  padding-top: 10px;
+  color: #d50000;
+  font-size: 0.9em;
+  visibility: hidden;
+}
+
+.form__input--error + .form__error {
+  visibility: visible;
+}
+
+.form__input--small {
+  max-width: 250px;
+}
+
+textarea.form__input {
+  resize: none;
+  min-height: 200px;
+}
+
+.form__btn {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 10px 16px;
+  margin: 10px 0;
+
   color: #ffffff;
-  font-weight: bold;
-  font-size: 29px; 
-  margin-top:10px;
+  background: #14b64a;
+  border: 2px solid #0fa942;
+  border-radius: 5px;
+
+  cursor: pointer;
+  outline: none;
 }
 
-.table1 {
-  display: flex;
-  align-items: flex-start;
-}
-
-.img_burger {
-  margin-right: 30px;
-  align-items: flex-end;
-  margin-top: 30px;
-}
-
-.img_pizza {
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.table2 {
-  margin-right: 30px;
-  align-items: flex-end;
-  display: flex;
+.form__btn:active {
+  background: #0fa942;
 }
